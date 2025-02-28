@@ -1,6 +1,6 @@
 # A LangGraph-based Multi-Agent System
 
-A simplified demonstration of a LangGraph-based API powered by FastAPI and Groq's language model. This project showcases a workflow where a supervisor routes user queries to either a researcher (for information gathering) or a coder (for technical tasks), leveraging AI to process and respond to requests efficiently.
+A simplified demonstration of a LangGraph-based API powered by FastAPI and Groq's language model. This project showcases a workflow where a supervisor routes user queries to a researcher (for information gathering) or a coder (for technical tasks), defined by system prompts, leveraging Llama3.3 or Mixtral to process and respond to requests. Agents are autonomously equipped with Tavily tools. Enhanced with the ORJSONResponse class, the FastAPI response speed improves by 20-25%.
 
 ![Graph](graph.png)
 
