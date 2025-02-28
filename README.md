@@ -9,12 +9,6 @@ A simplified demonstration of a LangGraph-based API powered by FastAPI and Groq'
 - [Features](#features)
 - [Requirements](#requirements)
 - [Installation](#installation)
-- [Configuration](#configuration)
-- [Usage](#usage)
-- [API Endpoints](#api-endpoints)
-- [Workflow](#workflow)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Overview
 The Quoc Anh ver2 API is a lightweight implementation of a task-routing system using LangGraph and FastAPI. It integrates Groq's `mixtral-8x7b-32768` model for natural language processing and Tavily for search capabilities. The system analyzes user input, delegates tasks to appropriate agents (researcher or coder), and returns structured responses.
