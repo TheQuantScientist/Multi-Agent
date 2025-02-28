@@ -2,6 +2,8 @@
 
 A simplified demonstration of a LangGraph-based API powered by FastAPI and Groq's language model. This project showcases a workflow where a supervisor routes user queries to either a researcher (for information gathering) or a coder (for technical tasks), leveraging AI to process and respond to requests efficiently.
 
+![Graph](graph.png)
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
